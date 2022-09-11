@@ -2,9 +2,8 @@
 # Distributed under the terms of the Modified BSD License.
 
 # Ubuntu 22.04 (jammy)
-# https://hub.docker.com/_/ubuntu/tags?page=1&name=jammy
-ARG ROOT_CONTAINER=ubuntu:22.04
-
+# https://hub.docker.com/_/ubuntu/?tab=tags&name=jammy
+ARG ROOT_CONTAINER=nvidia/cuda:11.6.2-cudnn8-runtime-ubuntu20.04
 FROM $ROOT_CONTAINER
 
 LABEL maintainer="Jupyter Project <jupyter@googlegroups.com>"
