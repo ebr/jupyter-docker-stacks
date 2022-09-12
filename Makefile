@@ -11,21 +11,7 @@ OWNER?=jupyter
 ALL_IMAGES:= \
 	base-notebook \
 	minimal-notebook \
-	r-notebook \
-	scipy-notebook \
-	tensorflow-notebook \
-	datascience-notebook \
-	pyspark-notebook \
-	all-spark-notebook
-
-AARCH64_IMAGES:= \
-	base-notebook \
-	minimal-notebook \
-	r-notebook \
-	scipy-notebook \
-	datascience-notebook \
-	pyspark-notebook \
-	all-spark-notebook
+	scipy-notebook
 
 # Enable BuildKit for Docker build
 export DOCKER_BUILDKIT:=1
