@@ -3,7 +3,7 @@
 
 # Ubuntu 22.04 (jammy)
 # https://hub.docker.com/_/ubuntu/?tab=tags&name=jammy
-ARG ROOT_CONTAINER=ubuntu:22.04
+ARG ROOT_CONTAINER=nvidia/cuda:11.4.0-cudnn8-runtime-ubuntu20.04
 
 FROM $ROOT_CONTAINER
 
